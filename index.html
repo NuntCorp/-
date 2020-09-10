@@ -1,7 +1,121 @@
 <!DOCTYPE html>
-
 <html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="OS, Nunt, Nougat, Nunt OS, Mac OS, Windows, Linux, Operating Systems">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #40e0d0 , #98fb98)
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.header h2 {
+  text-align: center;
+}
+
+.progress-container {
+  width: 100%;
+  height: 3px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 3px;
+  background-image: linear-gradient(to right, #40e0d0 , #98fb98);
+  width: 0%;
+}
+
+.content {
+  width: 100%;
+  height:100%;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 100px
+}
+
+.btn {
+  color: black;
+  padding: 5px 20px;
+  font-size: 16px;
+  color: #CCCCCC;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #40e0d0 , #98fb98);
+}
+
+.btn:hover{
+  color: #888888;
+  font-weight: 5px
+}
+
+</style>
+</head>
 <body>
-Yeetus Deletus
+
+<div class="header">
+<div class="progress-container">
+<div class="progress-bar" id="myBar"></div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <span class="navbar-brand"><img src="logo.gif" style="margin-left: 5px;" width="35" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+  </span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar-example2">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="#home">Home</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#features">Features</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#pricing">Pricing</a>
+    </li>
+  </ul>
+  <span class="navbar-text">
+      <a class="btn" href="#downloads">Download</a>
+  </span>
+</div>
+</nav>
+</div>
+
+<div class="content">
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <div id="home">
+  </div>
+  <div id="features">
+  </div>
+  <p>aa</p>
+  <p>aa</p>
+  <p>aa</p>
+  <p>aa</p>
+
+</div>
+
+</div>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
 </body>
 </html>
