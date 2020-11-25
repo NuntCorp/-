@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "name": "background.gif",
+      "description": "Login Screen Background",
+      "source": "https://raw.githubusercontent.com/NuntCorp/Nunt-OS/master/background.gif"
+    },
+    {
+      "name": "main.py",
+      "description": "Operating System",
+      "source": "https://raw.githubusercontent.com/NuntCorp/Nunt-OS/master/main.py"
+    }
+  [
+}
