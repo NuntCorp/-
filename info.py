@@ -18,6 +18,12 @@ info = {
             "description": "Operating System",
             "source": "https://raw.githubusercontent.com/NuntCorp/Nunt-OS/master/main.py",
             "size": "17 KB"
+         },
+        {
+            "name": "logo2.gif",
+            "description": "Startup Logo",
+            "source": "https://github.com/NuntCorp/Nunt-OS/blob/master/logo2.gif?raw=true",
+            "size": "3 KB"
          }
      ]
 }
