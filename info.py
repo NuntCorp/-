@@ -24,6 +24,12 @@ info = {
             "description": "Startup Logo",
             "source": "https://github.com/NuntCorp/Nunt-OS/blob/master/logo2.gif?raw=true",
             "size": "3 KB"
+         },
+        {
+            "name": "logo3.gif",
+            "description": "Non-Type Logo",
+            "source": "https://github.com/NuntCorp/Nunt-OS/blob/master/logo3.gif?raw=true",
+            "size": "672 Bytes"
          }
      ]
 }
