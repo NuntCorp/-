@@ -11,13 +11,13 @@ info = {
             "name": "logo.gif",
             "description": "App Icon",
             "source": "https://github.com/NuntCorp/Nunt-OS/blob/master/logo.gif?raw=true",
-            "size": "7.16 KB"
+            "size": "7 KB"
          },
         {
             "name": "main.py",
             "description": "Operating System",
             "source": "https://raw.githubusercontent.com/NuntCorp/Nunt-OS/master/main.py",
-            "size": "17.1 KB"
+            "size": "17 KB"
          }
      ]
 }
