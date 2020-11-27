@@ -49,7 +49,6 @@ root.config(bg="#101010", bd=-4, highlightthickness=-4, highlightcolor="white")
 canvas.config(bd=-2, relief='sunken', bg="#101010", highlightthickness=-2, highlightcolor="white")
 screen.register_shape("background.gif")
 screen.register_shape("logo2.gif")
-screen.register_shape("logo3.gif")
 screen.register_shape("profile.gif")
 screen.update()    
 w = 1250
